@@ -45,7 +45,7 @@ services:
     volumes:
       - ./videos:/output
     environment:
-      - CLASS_URL=[https://your-institution.adobeconnect.com/room-abc/](https://your-institution.adobeconnect.com/room-abc/)
+      - CLASS_URL=https://your-institution.adobeconnect.com/room-abc/
       - USERNAME=your_username
       - PASSWORD=your_password
       - RECORD_DURATION=3060 # Recording duration in seconds
@@ -56,7 +56,7 @@ services:
     volumes:
       - ./videos:/output
     environment:
-      - CLASS_URL=[https://your-institution.adobeconnect.com/room-xyz/](https://your-institution.adobeconnect.com/room-xyz/)
+      - CLASS_URL=https://your-institution.adobeconnect.com/room-xyz/
       - USERNAME=your_username
       - PASSWORD=your_password
       - RECORD_DURATION=3600
@@ -73,7 +73,7 @@ class_three:
     volumes:
       - ./videos:/output
     environment:
-      - CLASS_URL=[https://your-institution.adobeconnect.com/room-123/](https://your-institution.adobeconnect.com/room-123/)
+      - CLASS_URL=https://your-institution.adobeconnect.com/room-123/
       - USERNAME=your_username
       - PASSWORD=your_password
       - RECORD_DURATION=5400
